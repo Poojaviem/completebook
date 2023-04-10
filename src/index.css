@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  
+  background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav{
+  width: 100%;
+  display: flex;
+  padding: 1%;
+  justify-content:space-around;
+  list-style: none;
+  font-size: 25px;
+  align-items: center;
+}
+.link{
+  text-decoration: none;
+}
+.box{
+  width: 100%;
+
+}
+.form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  flex-direction: column;
+}
+.date{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  flex-direction: column;
+  width: 40%;
+  margin: 10px;
+  padding: 1%;
+  border-radius: 10px;
+}
+.form input{
+  width: 40%;
+  margin: 10px;
+  padding: 1%;
+  border-radius: 10px;
+
+}
+
+.login{
+  width: 100%;
+  display: flex; 
+  
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+   
+
+}
+.form input{
+width: 500px;
+font-size:18px;
+padding: 1%;
+margin: 5px;
+  
+  background-color: rgb(182, 231, 225);
+}
+.btn{
+  width:100px;
+  padding: 1%;
+  margin: 10px;
+  font-size: 20px;
+  background-color: rgb(15, 134, 134);
+  color:white;
+  border: none;
+  border-radius: 12px;
+}
+
+.btn:hover{
+  color: rgb(58, 61, 61);
+  background-color: rgb(15, 223, 212);
+  
+}
+.button{
+  width: 10%;
+  border: none;
+  font-size: 18px;
+  padding: 1%;
+  color: aliceblue;
+  border-radius: 10px;
+  background: #F3904F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.button:hover{
+  background: #283c86;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+}
+.user{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  color: rgb(15, 60, 206);
+  font-size: 25px;
+}
+.pera{
+  color: red;
+
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-box input{
+  width: 500px;
+font-size:15px;
+padding: 3%;
+margin: 9px;
+border: none;
+  
+  background-color: rgb(182, 231, 225);
+
+}
+.form-box textarea{
+  width: 500px;
+font-size:15px;
+padding: 3%;
+margin: 9px;
+border: none;
+  
+  background-color: rgb(182, 231, 225);
+
+}
+
+.table, th, td {
+  border: 1px solid black;
+ 
+}
+.table{
+  width: 90%;
+ 
+  border: 1px solid black;
+  
+}
+.table th{
+  background-color: rgb(132, 172, 196);
+  padding: 1%;
+}
+.table td{
+  padding: 1%;
+}
+
+.class-name{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.radio{
+  width:10px;
+}
+.h1{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit{
+  background-color: #42a744;
+  padding: 2%;
+  width: 100px;
+  border: none;
+  
+  color: rgb(36, 37, 39);
+}
+.delete{
+  background-color: red;
+  color: rgb(230, 226, 219);
+  padding: 2%;
+  border: none;
+  width: 100px;
+  margin: 20px;
+}
+.delete:hover{
+  background-color: rgb(87, 9, 9);
+}
+.edit:hover{
+  background-color: #053505;
+  color: aliceblue;
+}
+.view{
+  background-color: #6cb9dd;
+  padding: 2%;
+  width: 100px;
+  border: none;
+  
+  color: rgb(36, 37, 39);
+}
+.view:hover{
+  background-color: #062641;
+  color: aliceblue;
+}
